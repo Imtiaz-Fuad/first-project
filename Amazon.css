@@ -1,0 +1,165 @@
+/* Universal */
+*{ 
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:70px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* BOX 1 */
+.nav-logo{
+    height:50px;
+    width: 145px;
+} 
+.logo{
+    background-image: url(AmazonLogo.png);
+    background-size: cover;
+    height: 50px;
+    width: 139px;
+}
+
+/* BOX 2 */
+.a{
+    font-size: 1rem;
+    color: #cccccc;
+    margin:10px;
+}
+.b{
+    font: size 2rem;
+    margin-right:10px;
+}
+.location-icon{
+    display:flex;
+    height:100%;
+}
+/* BOX 3 */
+.nav-input{
+    height:35px;
+    width: 600px;
+    font-size: 1rem;
+}
+.nav-select{
+    height:40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-bar{
+    display: flex;
+    height:60px;
+    align-items: center;
+}
+.nav-input:hover{
+    border:3px solid orange;
+}
+
+.search-icon{
+    height:42px;
+    width:35px;
+    font-size: 1.25rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: orange;
+}
+/* BOX 4 */
+.country{
+    display: flex;
+}
+.flag{
+    background-image: url(Flag.png);
+    background-size: cover;
+    height:15px;
+    width:30px;
+}
+.language{
+    background-color: black;
+    color: white;
+    border:none;
+}
+/* BOX 5 & 6*/
+.sign-in{
+font-size: 15px;
+margin:5px;
+}
+.list{
+    font-weight:bold;
+    font-size:16px;
+    background-color: black;
+    color: white;
+    border:none;
+    margin:5px;
+}
+
+/* BOX 7*/
+.nav-cart{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.nav-cart i {
+font-size:30px;
+}
+
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    height:40px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.panel-options{
+    display: flex;
+    width:80%;
+}
+.panel-options p{
+    display: inline;
+    font-size:1.05rem;
+    margin-left:12px;
+}
+.panel-options p:hover{ 
+    border:2px solid white;
+}
+/* hero section */
+.hero-section{
+    background-image: url(homepage.jpg);
+    background-size:cover;
+    height:600px;
+}
+/* Making boxes */
+.box{
+height:400 px;
+width: 22%;
+background-color:white;
+border: 2px solid black;
+}
+/* Arranging Boxes */
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 300px;   
+}
+.pictures{
+    margin:20px;
+    margin-bottom: 35px;
+    background-image: url(box.jpg);
+    background-size: cover;
+    height:300px; 
+}
+.makeup{
+    background-image: url(makeup.jpg);
+}
+.pc{
+    background-image: url(Cpu.jpg);
+}

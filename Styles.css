@@ -1,0 +1,70 @@
+
+#navbar{
+height : 60px;     
+background-color:black;
+color:white;
+}
+#c{
+    color:orange
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color:white;
+}
+button{
+    background-color:orange;
+}
+.content{
+    height :500px;
+    width :200px;
+    border:2px solid black;
+ 
+}
+#box1{
+width :100px;
+height:100px;
+border-width :2px;
+border-style: solid;
+display: inline-block;
+background-image: url(soap.jpg);
+background-size: cover;
+}
+#box2{
+    width :100px;
+    height:100px;
+    border-width :2px;
+    border-style: solid;
+    display: inline-block;
+    background-image:url(US.jpg);
+    background-size: cover;
+    }
+#box3{
+    width :100px;
+    height:100px;
+    border-width :2px;
+    border-style: solid;
+    display: inline-block;
+ }
+ #box4{
+    width :100px;
+    height:100px;
+    border-width :2px;
+    border-style: solid;
+    display: inline-block;
+ }
+footer{
+    background-color:bisque;
+    color:black;
+    text-align:center;
+}
+
+/* putting div in right corner and unscrollable */
+/* div{
+    height :100px;
+    width:100px;
+    background-image: url(soap.jpg);
+    background-size:cover;
+    position: fixed;
+    right:0px;
+} */
